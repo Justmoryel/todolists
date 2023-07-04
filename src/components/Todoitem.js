@@ -6,7 +6,7 @@ const Todoitem = (props) => {
     <div className="todolist-task-wrapper">
       <div>{value}</div>
       <div className="todolist-func-btn">
-        <button>UPDATE/button>
+        <button>UPDATE</button>
         <button onClick={() => btnDelete(index)}>DELETE</button>
       </div>
     </div>
